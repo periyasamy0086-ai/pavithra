@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Marks Table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="head">Student Marks Entry</h1>
+  <form id="marksForm">
+    <label id="num">Roll No: <input type="number" id="roll" required></label>
+    <label>Name: <input type="text" id="name" required></label><br>
+
+    <label>Subject 1: <input type="number" id="sub1"min="0" max="100" required></label><br>
+    <label>Subject 2: <input type="number" id="sub2" min="0" max="100" required></label><br>
+    <label>Subject 3: <input type="number" id="sub3" min="0" max="100" required></label><br>
+    <label>Subject 4: <input type="number" id="sub4" min="0" max="100" required></label><br>
+    <label>Subject 5: <input type="number" id="sub5" min="0" max="100" required></label><br>
+    <button type="submit">Add Student</button>
+  </form>
+
+  <button id="downloadBtn">Download pdf</button>
+
+  <table id="studentsTable">
+    <thead>
+      <tr>
+        <th>Roll No</th>
+        <th>Name</th>
+        <th>Sub1</th>
+        <th>Sub2</th>
+        <th>Sub3</th>
+        <th>Sub4</th>
+        <th>Sub5</th>
+        <th>Total</th>
+        <th>Percentage</th>
+        <th>Status</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</body>
+</html> 
+
+
+
+
+
+
+
+
+
+
