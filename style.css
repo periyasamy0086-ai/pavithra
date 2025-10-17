@@ -1,0 +1,29 @@
+
+
+ body { font-style: oblique; padding: 20px; background-image:url(compter\ 4.png); }
+h1 { text-align: center; }
+#head{color:white}
+#roll{height: 100%;}
+#name{height: 100%;}
+#sub1{height: 100%; width: 100%;}
+#sub2{height: 100%;width: 100%;}
+#sub3{height: 100%;width: 100%;}
+#sub4{height: 100%;width: 100%;}
+#sub5{height: 100%;width: 100%; }
+form { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px; justify-content: center; }
+label { display: flex; flex-direction: column; font-size: 25px; color: rgb(0, 255, 234);font:bold}
+button { padding: 6px 12px; margin-top: 10px; cursor: pointer; border-radius: 20px;height: 50px; }
+
+table { width: 100%; border-collapse: collapse; background: #fff; margin-top: 15px; }
+th, td { border: 1px solid #ccc; padding: 8px; text-align: center; }
+th { background: #0e839a; color: rgb(9, 9, 9); }
+.pass { color: green; font-weight: bolder; }
+.fail { color: red; font-weight: bold; }
+
+#editBtn { background-color: #214bf3; color: rgb(160, 212, 221); border-style: groove ; padding: 4px 8px; margin-right: 4px; cursor: pointer; height: 30px;width: 70px; }
+#editBtn:hover { background-color: #9949a7; }
+#deleteBtn { background-color: #f44336; color: white; border-style: groove; padding: 4px 8px; cursor: pointer; border-radius: 50px; height: 30px;width: 70px; }
+#deleteBtn:hover { background-color: #da190b; }
+#downloadBtn { background-color: #4CAF50; color: white; border: none; margin-bottom: 10px; }
+#downloadBtn:hover { background-color: #45a049; } 
+
